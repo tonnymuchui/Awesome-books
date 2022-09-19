@@ -12,10 +12,9 @@ Create a basic UI using HTML
 - Javascript
 - Visual Studio Code
 
-## Live Demo (if available)
+<!-- ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://livedemo.com) -->
 
 ## Getting Started
 
