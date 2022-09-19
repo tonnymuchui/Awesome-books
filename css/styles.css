@@ -6,10 +6,6 @@
   flex-direction: column;
 }
 
-.books {
-  border-bottom: 1px solid silver;
-}
-
 #btn {
   width: fit-content;
 }
@@ -32,6 +28,7 @@ button {
   display: flex;
   flex-direction: column;
   color: #000;
+  border-bottom: 1px solid silver;
 }
 
 .remove-btn {
