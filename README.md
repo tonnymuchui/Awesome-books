@@ -2,8 +2,10 @@
 
 # AwesomeBooks
 
-> Description the project.
-Create a basic UI using HTML
+## Description the project.
+- Create a basic UI using HTML
+- build a basic website that allows users to add/remove books from a list
+- Use Javascript objects and arrays
 
 ## Built With
 
