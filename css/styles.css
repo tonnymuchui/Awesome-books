@@ -1,0 +1,37 @@
+#form-container {
+  display: flex;
+  margin-top: 12px;
+  width: 30%;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#btn {
+  width: fit-content;
+}
+
+.heading {
+  text-align: start;
+}
+
+button {
+  width: 10%;
+}
+
+#myBooks {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  border-bottom: 1px solid silver;
+}
+
+.remove-btn {
+  width: fit-content;
+  margin-bottom: 10px;
+}
