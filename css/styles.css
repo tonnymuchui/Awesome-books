@@ -1,3 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 4px;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.navmenu a {
+  color: #000;
+}
+
+.navlists {
+  display: flex;
+  margin-right:   13px;
+}
+
+.navlists a{
+  color: #000;
+  text-align: center;
+  padding: 2px;
+  border-right:1px solid #000;
+}
+
+.navlists a:hover {
+  color: blue;
+}
+
+.navlists li {
+  margin-right: 5%;
+  list-style: none;  
+}
+
 #form-container {
   display: flex;
   margin-top: 12px;
@@ -66,3 +106,16 @@ button {
   border: 1px solid #000;
   padding: 10px;
 }
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-list {
+  text-align: center;
+}
+
