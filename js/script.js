@@ -84,3 +84,14 @@ btn.addEventListener('click', (event) => {
   }
   form.reset();
 });
+
+const removeBtn = document.querySelector('#myBooks');
+removeBtn.addEventListener('click', (event) => {
+  event.target.parentElement.className = 'delete';
+  const title = event.target.parentElement.firstElementChild.textContent;
+  event.target.parentElement.remove();
+  const author = event.target.parentElement.firstElementChild.nextElementSibling.textContent;
+  const books = ClassLocalStorage.getBooks();
+  const filtered = books.filter((book) => book.title !== title || book.author !== author);
+  localStorage.setItem('booksData', JSON.stringify(filtered));
+});
