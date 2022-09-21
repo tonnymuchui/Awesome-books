@@ -13,6 +13,10 @@ ul {
   border: 1px solid;
 }
 
+.navbar li {
+  list-style: none;
+}
+
 .navmenu a {
   color: #000;
 }
@@ -35,7 +39,6 @@ ul {
 
 .navlists li {
   margin-right: 5%;
-  list-style: none;  
 }
 
 #form-container {
@@ -88,7 +91,7 @@ button {
   flex-direction: column;
   gap: 1px;
   border: 1px solid #000;
-  padding: 5px;
+  padding: 3px;
 }
 
 #author-name {
@@ -115,7 +118,14 @@ button {
   text-align: center;
 }
 
-.contact-list {
-  text-align: center;
+.contact-list li {
+  margin-left: 40%;
+}
+
+.footer_link {
+  list-style: none;
+  border: 1px solid;
+  margin-top: 10%;
+  padding: 3px;
 }
 
